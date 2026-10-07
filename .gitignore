@@ -1,0 +1,8 @@
+.tools/
+.asset-originals/
+node_modules/
+artifacts/
+*.log
+.env
+.env.*
+!.env.example
