@@ -25,7 +25,21 @@ Evidence files are stored locally in ignored `artifacts/`, including desktop her
 
 ## Public deployment
 
-Pending publication. Public URL rendering, all asset responses, desktop/mobile behavior and live link destinations still require verification. Local QA alone is not completion.
+**Published and verified:** [public preview](https://gabi0102souza-stack.github.io/king-kups-preview/), [repository](https://github.com/gabi0102souza-stack/king-kups-preview), branch `main`. GitHub Pages is configured to serve `main` at `/`. The [initial Pages deployment](https://github.com/gabi0102souza-stack/king-kups-preview/actions/runs/37656784894) completed successfully. Final documentation and the Maps/schedule correction are committed to the same branch.
+
+| Public check | Observed result |
+|---|---|
+| HTTP and integrity | 17 production files returned HTTP 200 with expected HTML/CSS/JS/WebP/WOFF2/text content types. SHA-256 of every response matches its local source. Evidence: ignored `artifacts/public-http-check.json`. |
+| Desktop | Actual public URL inspected at 1440×900. Document width 1425px, no page overflow. Hero, menu, story, catering and location inspected. |
+| Mobile | Actual public URL inspected at 390×844 and 320×740. Document widths 375px and 305px, no page overflow. Header, deliberate food crop, vertical menu, catering inquiry and persistent truck/contact dock checked. |
+| Images/fonts/script | All three photographs load from published responsive WebP URLs; local fonts load; the progressive inquiry helper is enabled. No error/warning console entries during tested flows. |
+| Form/navigation | Menu and truck anchors work. The public catering helper prepares the correctly encoded draft for January 20, 2027, 50 guests, McKinney & Frisco, TX, Work event. No message was sent. Phone/email/social links use the verified business contacts. |
+| Maps correction | A directions URL attempted a route from an unavailable origin. Changed to a place search, labeled Open in Maps. The search opens the correct King Kups listing with the matching address/phone and Exxon landmark. |
+| Schedule correction | Expanded Google Maps weekly hours: Tuesday/Friday 11 AM–8:30 PM; Saturday closed. Official Instagram and Restaurantji differ on Saturday. The preview now asks visitors to confirm Saturday with the truck and cites Google Maps for the listed weekday times. |
+| Contrast | Source palette checks: ink/paper 16.33:1, muted/paper 6.55:1, teal/paper 4.55:1, gold/paper 5.40:1, ink/aqua 9.99:1. Focus indicators and reduced-motion styles are present. |
+| Preview safeguards | Public HTML retains noindex/nofollow, robots.txt disallows crawling, footer identifies the independent concept, and photo/source attribution remains available. |
+
+Public screenshots: `artifacts/public-desktop.jpg`, `artifacts/public-desktop-full.jpg`, `artifacts/public-mobile-390.jpg`, `artifacts/public-mobile-320.jpg`. These are local QA evidence, intentionally excluded from the production repository. No Lighthouse score or formal WCAG certification is claimed.
 
 ## Limits
 

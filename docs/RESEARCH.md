@@ -25,7 +25,7 @@ An old domain **does exist**: `kingkups.com`, linked from the official Instagram
 | Positioning | California influence, local family operation, birria and street-food combinations | Official self-description plus Dallas Observer |
 | Location detail | Behind an Exxon near US 75 and Virginia Parkway | Dallas Observer; current Facebook posts also refer to the Exxon location |
 | Reputation | Facebook showed 98% recommendation from 356 reviews | Official Facebook page, snapshot on October 7; not a permanent/live score |
-| Additional reputation | Visit McKinney relays Google 4.6 / 393 reviews, dated October 5 | Not independently read from Google Business. Not used as a live Google rating on the site. |
+| Google Business listing | Google Maps showed King Kups, the same address and phone, located in Exxon; its website link is the official Facebook page. Rating 4.6 from 393 reviews | [Google Maps place search](https://www.google.com/maps/search/?api=1&query=King%20Kups%2C%20202%20N%20Central%20Expy%2C%20McKinney%2C%20TX%2075070), inspected directly October 7. Visit McKinney relays the same rating. This dated Google score is not published as a live rating on the site. |
 | Current contact/order | Direct phone and email verified; social updates active | Official Facebook. Calling to ask about the day's menu/order is a prudent route; phone ordering capability is not asserted. |
 | Uber Eats | Banner says closed on the platform since February 13, 2025 | Uber Eats store page; contradictory generic FAQ still says delivery is available. Banner takes priority. No delivery CTA. |
 | Public photography | Three contextualized photos of food/truck on tourism listing | Visit McKinney. See ASSET_SOURCES.md. Public accessibility is not an open license. |
@@ -33,12 +33,13 @@ An old domain **does exist**: `kingkups.com`, linked from the official Instagram
 ## Known hours, conflicts and uncertainty
 
 - Official Instagram bio literally says `Tues,Fri,Sat 11pm-8:30`. This appears to contain an AM/PM typo; it must not be silently treated as an authoritative corrected schedule.
+- Google Maps, inspected directly with its weekly hours expanded on October 7, lists Tuesday and Friday 11 AM to 8:30 PM, with Saturday and all other days closed. This is a listing, not proof of actual service on a given day.
 - Restaurantji (updated September 5, 2026) lists Tuesday, Friday and Saturday 11 AM to 8:30 PM, other days closed.
 - Visit McKinney lists Tuesday/Friday 11 AM to 8:30 PM; Saturday closed. Its “Today” label disagreed with its weekday table during direct inspection. Do not use its dynamic label.
 - Restaurant Guru includes Thursday and Saturday. Roadtrippers rendered older Wednesday/Thursday hours despite newer search snippets showing Tuesday/Friday/Saturday.
 - Official Facebook's most recent public image, [post/photo](https://www.facebook.com/photo/?fbid=1738732461594147&set=a.614191034048301), announces an immediate closure due to an outside propane-line leak and mentions returning Friday. It was shown as 15 hours old on October 7. Do not infer that repairs or reopening have occurred.
 - Another official post cites rain-related closure. Catering, events, weather, sellouts and food readiness can affect service.
-- Preview decision: show **listed** Tuesday/Friday/Saturday hours using Restaurantji's clearly stated times, immediately advise checking the official Facebook or calling, and avoid an “open now” indicator. No claim of current availability.
+- Preview decision after public-link QA: show **listed** Tuesday/Friday hours from the directly inspected Google Maps listing; show Saturday as **Confirm with truck** because Google/tourism say closed while official Instagram and Restaurantji indicate service. Immediately advise checking official Facebook or calling, include the listing source/date, and avoid an “open now” indicator. No claim of current availability.
 
 ## Menu and price decision
 
@@ -54,6 +55,6 @@ Some directories are contaminated: MenuPix lists a Virginia Street address and I
 
 ## Access limitations and owner confirmation
 
-Web-search fetches of Facebook/Instagram failed, but both official profiles were successfully inspected through the browser. Some news/press pages restrict automated access. Texas Monthly recognition is relayed by tourism/directories but the original award/article was not verified; no award badge is published. No new interview, live Google Business read, transaction or contact with the business occurred.
+Web-search fetches of Facebook/Instagram failed, but both official profiles were successfully inspected through the browser. Some news/press pages restrict automated access. Texas Monthly recognition is relayed by tourism/directories but the original award/article was not verified; no award badge is published. Google Maps was inspected directly during public-link QA, confirming the business details and revealing the additional Saturday conflict above. No new interview, transaction or contact with the business occurred.
 
 Owner confirmation needed: active location and complete weekly schedule; old domain ownership/recovery; exact menu, prices, recipes, allergens and availability; ordering process; catering service area, formats, terms and capacity; current branding and photo permissions; family-history wording. No ongoing synchronization with social platforms is implied.
