@@ -10,8 +10,8 @@
 - The food photos have no verified open license. Attribution is supplied; official commercial use still needs permissions or replacement imagery.
 - The family story is based on 2023 reporting and needs owner review. The Facebook recommendation is a dated snapshot, not synchronized data.
 - Bold stacked headings create a long mobile page. Menu/location/contact navigation is available near the top and a small mobile dock helps with visits/calls; this does not remove the amount of scrolling needed to read everything.
-- No business interview or Google Business live inspection was performed. An official rollout would require owner input and a domain plan, including investigation of the inaccessible `kingkups.com`.
+- No business interview was performed. The Google Maps business listing was inspected directly, but it conflicts with official Instagram and a directory about Saturday service. An official rollout would require owner input and a domain plan, including investigation of the inaccessible `kingkups.com`.
 
 ## QA-sensitive tradeoffs
 
-Large actual food photography strengthens the pitch but is more expensive than text. Responsive images, local compact fonts and lazy loading reduce that cost. Simple static hosting keeps the preview fast and portable. Screen-reader/keyboard/mobile behavior requires browser inspection; automated checks alone do not certify accessibility. Publication and real public QA remain prerequisites for completion.
+Large actual food photography strengthens the pitch but is more expensive than text. Responsive images, local compact fonts and lazy loading reduce that cost. Simple static hosting keeps the preview fast and portable. Screen-reader/keyboard/mobile behavior requires browser inspection; automated checks alone do not certify accessibility. The preview was published and inspected at its public GitHub Pages URL on desktop and two mobile widths; these checks do not replace owner review or a formal accessibility audit.

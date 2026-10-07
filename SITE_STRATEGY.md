@@ -11,7 +11,7 @@ Make King Kups immediately recognizable as a McKinney Cali-Mex food truck and tu
 | What is King Kups? | Hero identifies Cali-Mex street food, McKinney and food-truck operation. |
 | What should I try? | Signature items and a grouped selection of verified menu favorites. |
 | Why make the trip? | Distinctive birria wontons, real food photos and California influence. |
-| Where is it? | Address, Exxon landmark, accurate Google Maps directions link. |
+| Where is it? | Address, Exxon landmark, verified Google Maps place link. |
 | Is the truck there today? | Listed hours plus prominent official updates and phone confirmation. |
 | How do I order? | Contact the truck about today's menu and order options. No unsupported online checkout. |
 | Can I book catering? | A prominent section and an email-draft helper collecting date, location and guest count. |

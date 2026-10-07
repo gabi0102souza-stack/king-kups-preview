@@ -24,7 +24,7 @@ Optional asset regeneration: install Pillow in a development environment, place 
 
 Create a public repository named `king-kups-preview`, commit and push `main`, enable GitHub Pages from `main` at `/`. `.nojekyll` prevents Jekyll processing. After publication verify the actual public URL, images, styles, scripts, fonts, links and desktop/mobile layouts. The preview carries robots noindex/nofollow and a footer concept disclosure.
 
-Deployment: pending at time of initial authoring. This section will be updated with the verified repository and public URL when published.
+Published and verified October 7, 2026. Public preview: [King Kups](https://gabi0102souza-stack.github.io/king-kups-preview/). Public repository: [gabi0102souza-stack/king-kups-preview](https://github.com/gabi0102souza-stack/king-kups-preview), branch `main`. GitHub Pages serves `main` at `/` over HTTPS. Files were committed directly to the repository through the authenticated GitHub browser interface; the local checkout tracks `origin/main`. The Pages build and deployment succeeded, and the actual public site was tested on desktop and both required mobile widths.
 
 ## Content decisions and official launch
 
